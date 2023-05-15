@@ -1,0 +1,14 @@
+$colors: black,
+white;
+@each $color in $colors {
+    .placeholder-#{$color}:-ms-input-placeholder {
+        color: $color;
+    }
+    .placeholder-#{$color}::-ms-input-placeholder {
+        color: $color;
+    }
+    .placeholder-#{$color}::placeholder {
+        color: $color;
+        opacity: 1;
+    }
+}

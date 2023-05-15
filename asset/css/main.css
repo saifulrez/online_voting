@@ -1,0 +1,43 @@
+body {
+    font-family: "Kanit", sans-serif;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.candidate-img {
+    max-height: 6rem;
+}
+
+[class*="col-"] {
+    margin-bottom: 30px;
+}
+
+.placeholder-black:-ms-input-placeholder {
+    color: black;
+}
+
+.placeholder-black::-ms-input-placeholder {
+    color: black;
+}
+
+.placeholder-black::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.placeholder-white:-ms-input-placeholder {
+    color: white;
+}
+
+.placeholder-white::-ms-input-placeholder {
+    color: white;
+}
+
+.placeholder-white::placeholder {
+    color: white;
+    opacity: 1;
+}
